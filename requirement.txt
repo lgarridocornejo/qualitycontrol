@@ -1,7 +1,0 @@
-pandas
-streamlit
-matplotlib
-scikit-learn
-plotly
-plotly.express
-plotly-express
