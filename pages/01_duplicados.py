@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import qualitycontrol as qc
 
 
-DEMO = False
+DEMO = True
 
 st.set_page_config(
     page_title="Duplicados",
@@ -22,7 +22,7 @@ st.set_page_config(
 
 st.title("Análisis de Duplicados")
 if DEMO:
-    st.write('DEMO')
+    st.subheader('DEMO')
 
 file_upload = st.file_uploader("Subir archivo para analisis",type=['csv'])
 
